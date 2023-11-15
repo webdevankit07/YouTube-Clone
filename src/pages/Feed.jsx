@@ -17,7 +17,7 @@ const Feed = () => {
     }, [dispatch, category]);
 
     return (
-        <div className='flex flex-row sm:max-md:h-[calc(100%-44px)] h-[calc(100%-56px)] sm:max-md: overflow-y-auto'>
+        <div className='flex flex-row sm:max-md:h-[calc(100%-44px)] h-[calc(100%-88px)] md:h-[calc(100%-56px)] sm:max-md: overflow-y-auto'>
             <SideBar />
             <div className='grow w-[calc(100%-280px)] h-full overflow-y-auto bg-black'>
                 <SearchTerms />
